@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
                     "html:target/default-html-reports",
                     "rerun:target/rerun.txt"},
             features = "src/test/resources/features",
-            glue = "com/cod/step-definitions",
+            glue = "com/saucedemo/stepdefinitions",            //"com/cod/step-definitions"
             dryRun = false,
             tags = "@User"
     )
